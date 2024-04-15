@@ -19,7 +19,7 @@ Tech evaluation is as follows:
 • AI Model: Gemini Pro
 • Other APIs include: Google Fonts and Google Icons
 • Github Pages: Website host
-
+  
 
 
 Define customization & deployment options of your proposed solution.
