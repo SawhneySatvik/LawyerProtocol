@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAWYER | Lawyer Up</title>
+    <link rel="stylesheet" href="./Lawyer.css">
+    <link rel="stylesheet" href="../src/App.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Passion+One&family=Rubik+Burned&family=Short+Stack&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <h1>LAWYER <I>UP</I></h1>
+
+        <div class="menu">
+            <div class="menu-option">
+                <a href="../index.html"><h4>HOME</h4><img class="nav-home" src="./assets/icons/home.png" alt="home"></a>
+            </div>
+            <button><a href="./lawyer.html">LAWYER</a></button>
+        </div>
+    </nav>
+
+    <div class="chatbot">
+        <header>
+            <h2>Lawyer <i>BOT</i></h2>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlined">gavel</span>
+                <p>Hi there,<br>How can I help you today?</p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea name="chat-input" placeholder="Enter your message..."></textarea>
+            <span id="send-btn" class="material-symbols-outlined">send</span>
+        </div>
+    </div>
+    
+   
+
+<script type="importmap">
+    {
+      "imports": {
+        "@google/generative-ai": "https://esm.run/@google/generative-ai"
+      }
+    }
+</script>
+<script type="module" src="./Lawyer.js"></script>
+</body>
+</html>

@@ -13,12 +13,9 @@ function Navbar() {
                     <a href="#head-problem"><h4>PROBLEM SOLVED</h4><img className="nav-home" src="./assets/icons/search.png" alt="problem statement" /></a>
                 </div>
                 <div className="menu-option">
-                    <a href="#subscription"><h4>SUBSCRIBE</h4><img className="nav-home" src="./assets/icons/press-button.png" alt="subscribe" /></a>
-                </div>
-                <div className="menu-option">
                     <a href="#aboutus"><h4>ABOUT US</h4><img className="nav-home" src="./assets/icons/information.png" alt="about us" /></a>
                 </div>
-                <button><a href="./lawyer.html">LAWYER</a></button>
+                <button><a href="./Lawyer/Lawyer.html">LAWYER</a></button>
             </div>
         </nav>
     );
