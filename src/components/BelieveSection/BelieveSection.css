@@ -1,0 +1,18 @@
+.believe-container{
+  background-color: #FFFFEA;
+  color: black;
+  padding: 40px 150px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.believe-container>h1{
+  padding-bottom: 20px;
+  font-size: 3rem;
+  font-weight: 600;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+.believe-container>p{
+  padding: 10px;
+}
