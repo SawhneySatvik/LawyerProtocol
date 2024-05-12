@@ -13,7 +13,6 @@ Modular architecture that provides flexible integration options
 
 Tech evaluation is as follows:
 
-
 • Google Generative AI SDK
 • Google AI Studio: Model was trained on Google AI Studio on Google Cloud
 • AI Model: Gemini Pro
